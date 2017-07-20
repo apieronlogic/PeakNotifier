@@ -8,12 +8,18 @@ This code has been written to be flashed onto the microcontroller of a NodeMCU E
 The Arduino IDE has been used to flash this code onto the ESP-8266 microcontroller. Instructions on how to install the IDE and configure it for the ESP-8266 can be found here: https://learn.sparkfun.com/tutorials/esp8266-thing-hookup-guide/installing-the-esp8266-arduino-addon. Be sure to select the appropriate hardware from the board manager.
 
 
+
+
 PIN connections to LEDs
 
 green -- D6 (AKA pin 12)
+
 yellow -- D7 (AKA pin 13)
+
 blue -- D5 (AKA pin 14)
+
 red -- D8 (AKA pin 15)
+
 
 A pullup resistor was placed across the common ground of the LEDs
 
