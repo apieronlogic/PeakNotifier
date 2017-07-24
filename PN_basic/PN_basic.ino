@@ -12,7 +12,7 @@
 const char* ssid = "NETWORKNAME";                     //Replace with your network name
 const char* password = "PASSWORD";                   //Replace with network password
 
-const char* link= "http://www.fcgov.com/peakload/load-control-status?token=9081029c3ca4e0d8a0be965a086a73ba";    //URL to query conservation event status
+const char* link= "http://www.fcgov.com/peakload/load-control-status?token=ENTERTOKEN";    //URL to query conservation event status- contact Fort Collins Utilities for Token
 
 
 int underway_events = 0;                              //1 if conservation event is underway, 0 if not
